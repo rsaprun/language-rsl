@@ -1,5 +1,5 @@
 {
-  "name": "language-rsl",
+  "name": "language-rstyle-rsl",
   "version": "1.0.0",
   "description": "RSL language support for Atom",
   "repository": "https://github.com/rsaprun/language-rsl",
