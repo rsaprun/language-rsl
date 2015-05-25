@@ -1,0 +1,10 @@
+'.source.rsl':
+  'macro end':
+    'prefix': 'mac'
+    'body': 'macro ${1}(${2})\n  $0\nend;'
+  'if end':
+    'prefix': 'if'
+    'body': 'if (${1})\n  $0\nend;'
+  'for end':
+    'prefix': 'for'
+    'body': 'for (${1})\n  $0\nend;'

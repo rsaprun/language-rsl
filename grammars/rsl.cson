@@ -1,0 +1,34 @@
+'name': 'RSL'
+'scopeName': 'source.rsl'
+'fileTypes': [
+  'mac'
+]
+'patterns': [
+  {
+    'match': '\\b(?i:(and|break|class|const|continue|cpwin|elif|else|end|false|for|if|import|local|macro|not|null|nullobj|onerror|or|private|return|this|true|var|while))\\b'
+    'name': 'keyword.control.rsl'
+  }
+  {
+    'match': '\\b(?i:(bool|decimal|double|int|object|string|variant))\\b'
+    'name': 'storage.type.rsl'
+  }
+  {
+    'match': '\\b(?i:(abs|codefor|date|debugbreak|dttm|execexp|execmacro2|gengetprop|genobject|getparm|index|iseqclass|max|min|r2m|round|runerror|strlen|strsubst|strupr|substr|time|valtype))\\b'
+    'name': 'support.function.rsl'
+  }
+  {
+    'begin': '//'
+    'end': '\\n'
+    'name': 'comment.line.rsl'
+  }
+  {
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.rsl'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.rsl'
+  }
+]

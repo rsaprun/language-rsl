@@ -1,0 +1,10 @@
+{
+  "name": "language-rsl",
+  "version": "1.0.0",
+  "description": "RSL language support for Atom",
+  "repository": "https://github.com/rsaprun/language-rsl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
