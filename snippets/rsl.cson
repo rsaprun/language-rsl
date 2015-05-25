@@ -8,3 +8,6 @@
   'for end':
     'prefix': 'for'
     'body': 'for (${1})\n  $0\nend;'
+  'while end':
+    'prefix': 'whi'
+    'body': 'while (${1})\n  $0\nend;'
