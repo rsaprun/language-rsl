@@ -2,7 +2,7 @@
 
 TODO:
 
-* symbols
-* encoding
-* check syntax
-* indent
+- [ ] symbols
+- [ ] encoding
+- [ ] check syntax
+- [ ] indent
